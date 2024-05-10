@@ -3,6 +3,8 @@ name = "cursive-hjkl"
 version = "0.1.0"
 edition = "2021"
 authors = ["petrak@ <petrathekat@gmail.com>"]
+repository = "https://github.com/gamma-delta/cursive-hjkl"
+license = "MIT"
 
 keywords = ["cursive", "cursive-views", "terminal"]
 categories = ["command-line-interface"]

@@ -4,6 +4,7 @@ use cursive::{
   View,
 };
 
+/// Wraps the inner view with HJKL directional controls.
 pub struct HjklToDirectionWrapperView<T> {
   view: T,
 }

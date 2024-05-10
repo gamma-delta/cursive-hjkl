@@ -1,0 +1,13 @@
+[package]
+name = "cursive-hjkl"
+version = "0.1.0"
+edition = "2021"
+authors = ["petrak@ <petrathekat@gmail.com>"]
+
+keywords = ["cursive", "cursive-views", "terminal"]
+categories = ["command-line-interface"]
+
+description = "Transparently adds Vim-like HJKL controls to any Cursive view"
+
+[dependencies]
+cursive = "0.20.0"

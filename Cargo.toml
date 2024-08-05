@@ -12,4 +12,4 @@ categories = ["command-line-interface"]
 description = "Transparently adds Vim-like HJKL controls to any Cursive view"
 
 [dependencies]
-cursive = "0.20.0"
+cursive_core = "0.4"

@@ -1,3 +1,5 @@
+use cursive_core as cursive;
+
 use cursive::{
   event::{Event, EventResult, Key},
   view::ViewWrapper,
@@ -71,3 +73,12 @@ where
     self.view.on_event(the_cooler_event)
   }
 }
+
+#[cursive_core::blueprint(HjklToDirectionWrapperView::new(view))]
+struct Blueprint {
+  view: cursive_core::views::BoxedView,
+}
+
+cursive_core::manual_blueprint!(with hjkl_to_direction, |_config, _context| {
+    Ok(|view| HjklToDirectionWrapperView::new(view))
+});
